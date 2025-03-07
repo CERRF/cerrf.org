@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CERRF.org - Social Media Series</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+        .main-container {
+            background: #fff;
+            padding: 20px;
+            margin: 40px auto;
+            width: 90%;
+            max-width: 1200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .social-content {
+            text-align: center;
+        }
+        .social-card {
+            background: #24292e;
+            color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 8px;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .social-card:hover {
+            transform: scale(1.05);
+        }
+        .social-card h3 {
+            margin-top: 0;
+        }
+        .social-card a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        .social-card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+    <!-- Universal Navigation Bar -->
+    <div w3-include-html="nav.html"></div>
+
+    <div class="main-container">
+        <h1>Social Media Series</h1>
+        <div class="social-content">
+            <div class="social-card">
+                <h3>Instagram</h3>
+                <p>Follow us on Instagram for daily updates and cybersecurity tips.</p>
+                <a href="https://www.instagram.com/cerrf.social" target="_blank">Visit Instagram</a>
+            </div>
+            <div class="social-card">
+                <h3>LinkedIn</h3>
+                <p>Connect with us on LinkedIn to stay updated on our initiatives.</p>
+                <a href="https://www.linkedin.com/company/cerrf" target="_blank">Visit LinkedIn</a>
+            </div>
+            <div class="social-card">
+                <h3>Twitter</h3>
+                <p>Follow our Twitter for real-time updates and industry news.</p>
+                <a href="https://twitter.com/" target="_blank">Visit Twitter</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        w3.includeHTML();
+    </script>
+</body>
+</html>

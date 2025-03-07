@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CERRF.org - Collaborate</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+        .main-container {
+            background: #fff;
+            padding: 20px;
+            margin: 40px auto;
+            width: 90%;
+            max-width: 1200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .collab-content {
+            text-align: center;
+        }
+        .collab-card {
+            background: #24292e;
+            color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 8px;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .collab-card:hover {
+            transform: scale(1.05);
+        }
+        .collab-card h3 {
+            margin-top: 0;
+        }
+        .collab-card a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        .collab-card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+    <!-- Universal Navigation Bar -->
+    <div w3-include-html="nav.html"></div>
+
+    <div class="main-container">
+        <h1>Collaborate with Us</h1>
+        <div class="collab-content">
+            <div class="collab-card">
+                <h3>Partner with CERRF</h3>
+                <p>We welcome partnerships and collaborations from across the cybersecurity industry. Let’s work together to empower the next generation.</p>
+                <a href="mailto:socials@cerrf.org">Get in Touch</a>
+            </div>
+            <div class="collab-card">
+                <h3>Community Projects</h3>
+                <p>Join our community projects and initiatives aimed at fostering cybersecurity resilience and education.</p>
+                <a href="projects.html">View Projects</a>
+            </div>
+            <div class="collab-card">
+                <h3>Research Partnerships</h3>
+                <p>Collaborate with us on groundbreaking cybersecurity research and innovation.</p>
+                <a href="mailto:social@cerrf.org">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        w3.includeHTML();
+    </script>
+</body>
+</html>
