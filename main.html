@@ -12,7 +12,6 @@
             background-size: cover;
             font-family: Arial, sans-serif;
         }
-
         /* Universal container styling */
         .main-container {
             background-color: rgba(255, 255, 255, 0.9);
@@ -22,7 +21,6 @@
             max-width: 1200px;
             border-radius: 8px;
         }
-
         /* Scrolling banner styling */
         .scrolling-banner {
             background: #24292e;
@@ -32,34 +30,54 @@
             white-space: nowrap;
             margin-bottom: 20px;
         }
-
         .scrolling-banner p {
             display: inline-block;
             padding-left: 100%;
             animation: scroll-left 15s linear infinite;
             font-size: 1.1rem;
         }
-
         @keyframes scroll-left {
-            0% {
-                transform: translateX(0%);
-            }
-            100% {
-                transform: translateX(-100%);
-            }
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-100%); }
         }
-
         /* Logo container styling */
         .logo-container {
             text-align: center;
             margin-bottom: 20px;
         }
-
         .logo-container img {
             max-width: 200px;
             height: auto;
         }
-
+        /* Header information styling */
+        .site-header,
+        #about-cerrf {
+            margin-bottom: 30px;
+        }
+        .site-header h1 {
+            text-align: center;
+        }
+        .site-header p {
+            text-align: center;
+            line-height: 1.5;
+        }
+        #about-cerrf h2 {
+            margin-bottom: 10px;
+        }
+        #about-cerrf h3 {
+            margin-bottom: 5px;
+        }
+        #about-cerrf p, #about-cerrf ul {
+            margin: 5px 0 15px 20px;
+        }
+        #about-cerrf ul {
+            list-style: disc;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
         /* Card container styling */
         .card-container {
             display: flex;
@@ -67,7 +85,6 @@
             gap: 20px;
             justify-content: center;
         }
-
         .card {
             background: #24292e;
             color: #fff;
@@ -78,21 +95,17 @@
             width: 300px;
             transition: transform 0.3s;
         }
-
         .card:hover {
             transform: scale(1.05);
         }
-
         .card img {
             width: 100%;
             display: block;
         }
-
         .card-content {
             padding: 15px;
             text-align: center;
         }
-
         .card-content h3 {
             margin: 0 0 10px;
         }
@@ -118,6 +131,45 @@
     
     <!-- Main Content Container -->
     <div class="main-container">
+        <!--
+          <<< Author notes: Course header >>>
+          Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
+          In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
+          Add your open source license, GitHub uses MIT license.
+        -->
+        <header class="site-header">
+            <h1>Cyber Education, Resilience and Research Foundation (CERRF)</h1>
+            <p><em>That's a mouthful, so just call us CERRF! We are a first-of-its-kind, youth-led, and professionally backed nonprofit dedicated to promoting awareness in the cybersecurity industry.</em></p>
+            <p>At CERRF, we empower young people through education, resources, and innovative methods for teaching cybersecurity. Our mission is to advocate for and inspire the next generation of cyber professionals while fostering connections that promote resilience in the digital world. Join us as we research and develop new approaches to engage and educate young minds, building a stronger, more informed, and resilient cyber community.</p>
+        </header>
+        
+        <section id="about-cerrf">
+            <h2>About CERRF</h2>
+            <h3>Reach Out</h3>
+            <p><strong>Hours:</strong><br>Monday–Friday<br>11am–6pm</p>
+            <p><strong>Email:</strong> <a href="mailto:contact@cerrf.org">contact@cerrf.org</a></p>
+            <p><strong>Industry:</strong> Non-Profit Organizations</p>
+            <p><strong>Location:</strong> London, United Kingdom</p>
+            <hr>
+            <h2>Mission &amp; Purpose</h2>
+            <p>CERRF is a youth-led, professionally backed nonprofit focused on cybersecurity education, awareness, and research. Our key objectives include:</p>
+            <ul>
+              <li><strong>Empowering Youth:</strong> Providing education, resources, and innovative methods for learning about cybersecurity.</li>
+              <li><strong>Inspiring the Next Generation:</strong> Advocating for and inspiring the next generation of cyber professionals.</li>
+              <li><strong>Building Resilience:</strong> Fostering connections and promoting resilience in the digital world.</li>
+              <li><strong>Research &amp; Development:</strong> Innovating new approaches to engage and educate young minds for a stronger cyber community.</li>
+            </ul>
+            <hr>
+            <h2>Social Media &amp; Online Presence</h2>
+            <ul>
+              <li><strong>Instagram:</strong> <a href="https://www.instagram.com/cerrf.social" target="_blank">@cerrf.social</a></li>
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/cerrf" target="_blank">CERRF on LinkedIn</a></li>
+              <li><strong>GitHub Organization:</strong> CERRF GitHub (Expected) (Not confirmed if active)</li>
+              <li><strong>Bitbucket:</strong> No direct link provided but expected based on project repository integration.</li>
+            </ul>
+        </section>
+        
+        <!-- Card Container -->
         <div class="card-container">
             <a href="projects.html" class="card">
                 <img src="static/Projects.png" alt="Projects">
