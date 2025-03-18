@@ -56,14 +56,16 @@
             </div>
           </div>
         </div>
-    
-        <!-- Connector -->
-        <div class="connector" style="height:50px; width:2px; background:#ccc; margin:0 auto;"></div>
-    
+        
+        <!-- Vertical connector from top node -->
+        <div class="vertical-connector" style="height:30px; width:2px; background:#ccc; margin:0 auto;"></div>
+        <!-- Horizontal connector spanning across branches -->
+        <div class="horizontal-connector" style="border-top:2px solid #ccc; width:80%; margin:0 auto;"></div>
+        
         <!-- Level Container for Branches -->
-        <div class="level-container">
-          <!-- Left Branch: Program Manager and Sub-levels -->
-          <div class="branch">
+        <div class="level-container" style="display:flex; justify-content:space-around; align-items:flex-start; margin-top:20px;">
+          <!-- Left Branch -->
+          <div class="branch" style="display:flex; flex-direction:column; align-items:center;">
             <div class="card org-card">
               <img src="program-manager.jpg" alt="Program Manager Photo">
               <div class="card-content">
@@ -71,31 +73,27 @@
                 <p>Program Manager (CYT2)</p>
               </div>
             </div>
-            <div class="connector" style="height:30px; width:2px; background:#ccc; margin:0 auto;"></div>
-            <div class="sub-level">
-              <div class="branch">
-                <div class="card org-card">
-                  <img src="mentor-placeholder.jpg" alt="Mentor Coord Photo">
-                  <div class="card-content">
-                    <h3>Freddie</h3>
-                    <p>Mentorship Coordinator</p>
-                  </div>
+            <div class="vertical-connector" style="height:20px; width:2px; background:#ccc; margin:0 auto;"></div>
+            <div class="sub-level" style="display:flex; gap:10px; justify-content:center;">
+              <div class="card org-card">
+                <img src="mentor-placeholder.jpg" alt="Mentor Coord Photo">
+                <div class="card-content">
+                  <h3>Freddie</h3>
+                  <p>Mentorship Coordinator</p>
                 </div>
               </div>
-              <div class="branch">
-                <div class="card org-card">
-                  <img src="curriculum-placeholder.jpg" alt="Curriculum Dev Photo">
-                  <div class="card-content">
-                    <h3>Abde</h3>
-                    <p>Curriculum Developer</p>
-                  </div>
+              <div class="card org-card">
+                <img src="curriculum-placeholder.jpg" alt="Curriculum Dev Photo">
+                <div class="card-content">
+                  <h3>Abde</h3>
+                  <p>Curriculum Developer</p>
                 </div>
               </div>
             </div>
           </div>
-    
-          <!-- Center Branch: Secretary & PR Manager -->
-          <div class="branch">
+          
+          <!-- Center Branch -->
+          <div class="branch" style="display:flex; flex-direction:column; align-items:center;">
             <div class="card org-card">
               <img src="pr-manager.jpg" alt="PR Manager Photo">
               <div class="card-content">
@@ -103,20 +101,18 @@
                 <p>Secretary & PR Manager</p>
               </div>
             </div>
-            <div class="connector" style="height:30px; width:2px; background:#ccc; margin:0 auto;"></div>
-            <div class="branch">
-              <div class="card org-card">
-                <img src="assistant-placeholder.jpg" alt="Assistant Photo">
-                <div class="card-content">
-                  <h3>Oliver</h3>
-                  <p>Administrative Assistant</p>
-                </div>
+            <div class="vertical-connector" style="height:20px; width:2px; background:#ccc; margin:0 auto;"></div>
+            <div class="card org-card">
+              <img src="assistant-placeholder.jpg" alt="Assistant Photo">
+              <div class="card-content">
+                <h3>Oliver</h3>
+                <p>Administrative Assistant</p>
               </div>
             </div>
           </div>
-    
-          <!-- Right Branch: Finance Manager and Sub-levels -->
-          <div class="branch">
+          
+          <!-- Right Branch -->
+          <div class="branch" style="display:flex; flex-direction:column; align-items:center;">
             <div class="card org-card">
               <img src="finance-manager.jpg" alt="Finance Manager Photo">
               <div class="card-content">
@@ -124,29 +120,25 @@
                 <p>Finance Manager</p>
               </div>
             </div>
-            <div class="connector" style="height:30px; width:2px; background:#ccc; margin:0 auto;"></div>
-            <div class="sub-level">
-              <div class="branch">
-                <div class="card org-card">
-                  <img src="social-media.jpg" alt="Social Media Manager Photo">
-                  <div class="card-content">
-                    <h3>Max</h3>
-                    <p>Social Media Manager</p>
-                  </div>
+            <div class="vertical-connector" style="height:20px; width:2px; background:#ccc; margin:0 auto;"></div>
+            <div class="sub-level" style="display:flex; gap:10px; justify-content:center;">
+              <div class="card org-card">
+                <img src="social-media.jpg" alt="Social Media Manager Photo">
+                <div class="card-content">
+                  <h3>Max</h3>
+                  <p>Social Media Manager</p>
                 </div>
               </div>
-              <div class="branch">
-                <div class="card org-card">
-                  <img src="fundraiser.jpg" alt="Fundraiser Photo">
-                  <div class="card-content">
-                    <h3>Matthew</h3>
-                    <p>Fundraiser</p>
-                  </div>
+              <div class="card org-card">
+                <img src="fundraiser.jpg" alt="Fundraiser Photo">
+                <div class="card-content">
+                  <h3>Matthew</h3>
+                  <p>Fundraiser</p>
                 </div>
               </div>
             </div>
           </div>
-        </div> <!-- end of level-container -->
+        </div> <!-- end level-container -->
       </div>
       
       <h2>About CERRF</h2>
@@ -172,7 +164,7 @@
         <li><strong>GitHub Organization:</strong> <a href="https://github.com/CERRF" target="_blank">cerrf.org GitHub</a></li>
       </ul>
     
-      <!-- Card Container -->
+      <!-- Card Container (for other sections) -->
       <div class="card-container">
         <a href="projects.html" class="card">
           <img src="static/Projects.png" alt="Projects">
