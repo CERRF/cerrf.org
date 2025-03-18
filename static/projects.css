@@ -11,6 +11,7 @@ h1, h2 {
     margin-top: 20px;
 }
 
+/* Container for projects sections */
 .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +20,7 @@ h1, h2 {
     padding: 20px;
 }
 
+/* Style for individual project cards */
 .project-card {
     background: #24292e;
     color: #fff;
@@ -27,6 +29,11 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     width: 300px;
     text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
 }
 
 .project-card h3 {
@@ -43,6 +50,7 @@ h1, h2 {
     text-decoration: underline;
 }
 
+/* Proposal submission section styling */
 #proposal-submission {
     background: #fff;
     padding: 20px;

@@ -1,115 +1,112 @@
-<link rel="stylesheet" href="projects.css">
-
-<h1>Projects Overview</h1>
-
-<section id="past-projects">
-    <h2>Past Projects</h2>
-    <div class="projects-container">
-        <!-- GitHub Repository Card -->
-        <div class="project-card" id="past-repo1">
-            <h3>GitHub Repository 1</h3>
-            <p>Description of the first past project repository.</p>
-            <a href="https://github.com/cerrf-org/repo1" target="_blank">View on GitHub</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CERRF.org - Projects</title>
+    <link rel="stylesheet" href="static/projects.css">
+</head>
+<body>
+    <!-- Universal Navigation Bar using Jekyll include -->
+    {% include navbar.html %}
+    
+    <h1>Projects Overview</h1>
+    
+    <section id="past-projects">
+        <h2>Past Projects</h2>
+        <div class="projects-container">
+            <div class="project-card" id="past-repo1">
+                <h3>GitHub Repository 1</h3>
+                <p>Description of the first past project repository.</p>
+                <a href="https://github.com/cerrf-org/repo1" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card" id="past-pdf1">
+                <h3>Project Report PDF</h3>
+                <p>Detailed report of past project outcomes.</p>
+                <a href="/assets/pdfs/past_project_report.pdf" target="_blank">View PDF</a>
+            </div>
+            <div class="project-card" id="past-video1">
+                <h3>Project Recap Video</h3>
+                <p>A recap of our completed project.</p>
+                <a href="https://www.youtube.com/watch?v=examplePast" target="_blank">Watch on YouTube</a>
+            </div>
         </div>
-        <!-- PDF Card -->
-        <div class="project-card" id="past-pdf1">
-            <h3>Project Report PDF</h3>
-            <p>Detailed report of past project outcomes.</p>
-            <a href="/assets/pdfs/past_project_report.pdf" target="_blank">View PDF</a>
+    </section>
+    
+    <section id="ongoing-projects">
+        <h2>On-going Projects</h2>
+        <div class="projects-container">
+            <div class="project-card" id="ongoing-repo1">
+                <h3>GitHub Repository 2</h3>
+                <p>Description of an on-going project repository.</p>
+                <a href="https://github.com/cerrf-org/repo2" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card" id="ongoing-pdf1">
+                <h3>Current Project Plan</h3>
+                <p>Plan and milestones for the on-going project.</p>
+                <a href="/assets/pdfs/ongoing_project_plan.pdf" target="_blank">View PDF</a>
+            </div>
+            <div class="project-card" id="ongoing-video1">
+                <h3>Project Update Video</h3>
+                <p>Latest updates from our project team.</p>
+                <a href="https://www.youtube.com/watch?v=exampleOngoing" target="_blank">Watch on YouTube</a>
+            </div>
         </div>
-        <!-- YouTube Video Card -->
-        <div class="project-card" id="past-video1">
-            <h3>Project Recap Video</h3>
-            <p>A recap of our completed project.</p>
-            <a href="https://www.youtube.com/watch?v=examplePast" target="_blank">Watch on YouTube</a>
+    </section>
+    
+    <section id="future-projects">
+        <h2>Future Projects</h2>
+        <div class="projects-container">
+            <div class="project-card" id="future-repo1">
+                <h3>GitHub Repository 3</h3>
+                <p>Description of the future project repository.</p>
+                <a href="https://github.com/cerrf-org/repo3" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card" id="future-pdf1">
+                <h3>Project Proposal PDF</h3>
+                <p>Detailed proposal outlines for future projects.</p>
+                <a href="/assets/pdfs/future_project_proposal.pdf" target="_blank">View PDF</a>
+            </div>
+            <div class="project-card" id="future-video1">
+                <h3>Vision Video</h3>
+                <p>Our vision for upcoming projects.</p>
+                <a href="https://www.youtube.com/watch?v=exampleFuture" target="_blank">Watch on YouTube</a>
+            </div>
         </div>
-    </div>
-</section>
-
-<section id="ongoing-projects">
-    <h2>On-going Projects</h2>
-    <div class="projects-container">
-        <!-- GitHub Repository Card -->
-        <div class="project-card" id="ongoing-repo1">
-            <h3>GitHub Repository 2</h3>
-            <p>Description of an on-going project repository.</p>
-            <a href="https://github.com/cerrf-org/repo2" target="_blank">View on GitHub</a>
-        </div>
-        <!-- PDF Card -->
-        <div class="project-card" id="ongoing-pdf1">
-            <h3>Current Project Plan</h3>
-            <p>Plan and milestones for the on-going project.</p>
-            <a href="/assets/pdfs/ongoing_project_plan.pdf" target="_blank">View PDF</a>
-        </div>
-        <!-- YouTube Video Card -->
-        <div class="project-card" id="ongoing-video1">
-            <h3>Project Update Video</h3>
-            <p>Latest updates from our project team.</p>
-            <a href="https://www.youtube.com/watch?v=exampleOngoing" target="_blank">Watch on YouTube</a>
-        </div>
-    </div>
-</section>
-
-<section id="future-projects">
-    <h2>Future Projects</h2>
-    <div class="projects-container">
-        <!-- GitHub Repository Card -->
-        <div class="project-card" id="future-repo1">
-            <h3>GitHub Repository 3</h3>
-            <p>Description of the future project repository.</p>
-            <a href="https://github.com/cerrf-org/repo3" target="_blank">View on GitHub</a>
-        </div>
-        <!-- PDF Card -->
-        <div class="project-card" id="future-pdf1">
-            <h3>Project Proposal PDF</h3>
-            <p>Detailed proposal outlines for future projects.</p>
-            <a href="/assets/pdfs/future_project_proposal.pdf" target="_blank">View PDF</a>
-        </div>
-        <!-- YouTube Video Card -->
-        <div class="project-card" id="future-video1">
-            <h3>Vision Video</h3>
-            <p>Our vision for upcoming projects.</p>
-            <a href="https://www.youtube.com/watch?v=exampleFuture" target="_blank">Watch on YouTube</a>
-        </div>
-    </div>
-</section>
-
-<section id="proposal-submission">
-    <h2>Submit a Project Proposal</h2>
-    <form id="proposal-form" action="https://formspree.io/f/{your-form-id}" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="_replyto" required>
-        
-        <label for="proposal">Project Proposal:</label>
-        <textarea id="proposal" name="proposal" rows="5" required></textarea>
-        
-        <button type="submit">Submit Proposal</button>
-    </form>
-</section>
-
-<script>
-    // Fetch GitHub repository information for the specified cards
-    async function fetchGitHubRepos() {
-        const repoMapping = {
-            "past-repo1": { org: "cerrf-org", repo: "repo1" },
-            "ongoing-repo1": { org: "cerrf-org", repo: "repo2" },
-            "future-repo1": { org: "cerrf-org", repo: "repo3" }
-        };
-
-        Object.keys(repoMapping).forEach(async key => {
-            const { org, repo } = repoMapping[key];
-            const response = await fetch(`https://api.github.com/repos/${org}/${repo}`);
-            const data = await response.json();
+    </section>
+    
+    <section id="proposal-submission">
+        <h2>Submit a Project Proposal</h2>
+        <form id="proposal-form" action="https://formspree.io/f/{your-form-id}" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
             
-            document.getElementById(key).innerHTML = `
-                <h3>${data.name}</h3>
-                <p>${data.description || "No description available."}</p>
-                <a href="${data.html_url}" target="_blank">View on GitHub</a>
-            `;
-        });
-    }
-    fetchGitHubRepos();
-</script>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="_replyto" required>
+            
+            <label for="proposal">Project Proposal:</label>
+            <textarea id="proposal" name="proposal" rows="5" required></textarea>
+            
+            <button type="submit">Submit Proposal</button>
+        </form>
+    </section>
+    
+    <script>
+        async function fetchGitHubRepos(){
+            const repoMapping = {
+                "past-repo1": { org: "cerrf-org", repo: "repo1" },
+                "ongoing-repo1": { org: "cerrf-org", repo: "repo2" },
+                "future-repo1": { org: "cerrf-org", repo: "repo3" }
+            };
+            Object.keys(repoMapping).forEach(async (key) => {
+                const { org, repo } = repoMapping[key];
+                const response = await fetch(`https://api.github.com/repos/${org}/${repo}`);
+                const data = await response.json();
+                const card = document.getElementById(key);
+                card.querySelector("p").textContent = data.description;
+            });
+        }
+        fetchGitHubRepos();
+    </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('static/8365CE46-D8AC-489E-B276-8E1F6B7E6569.JPG') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+/* Universal container styling */
+.main-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 40px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 8px;
+}
+/* Scrolling banner styling */
+.scrolling-banner {
+    background: #24292e;
+    color: #fff;
+    padding: 10px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+.scrolling-banner p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll-left 15s linear infinite;
+    font-size: 1.1rem;
+}
+@keyframes scroll-left {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
+/* Logo container styling */
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo-container img {
+    max-width: 200px;
+    height: auto;
+}
+/* Header information styling */
+.site-header,
+#about-cerrf {
+    margin-bottom: 30px;
+}
+.site-header h1 {
+    text-align: center;
+}
+.site-header p {
+    text-align: center;
+    line-height: 1.5;
+}
+#about-cerrf h2 {
+    margin-bottom: 10px;
+}
+#about-cerrf h3 {
+    margin-bottom: 5px;
+}
+#about-cerrf p, #about-cerrf ul {
+    margin: 5px 0 15px 20px;
+}
+#about-cerrf ul {
+    list-style: disc;
+}
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+/* Card container styling */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    background: #24292e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card img {
+    width: 100%;
+    display: block;
+}
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+.card-content h3 {
+    margin: 0 0 10px;
+}

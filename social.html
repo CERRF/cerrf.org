@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CERRF.org - Social Media Series</title>
+    <link rel="stylesheet" href="static/style.css">
     <style>
         body {
             margin: 0;
@@ -47,12 +48,11 @@
             text-decoration: underline;
         }
     </style>
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 <body>
-    <!-- Universal Navigation Bar -->
-    <div w3-include-html="nav.html"></div>
-
+    <!-- Universal Navigation Bar using Jekyll include -->
+    {% include navbar.html %}
+    
     <div class="main-container">
         <h1>Social Media Series</h1>
         <div class="social-content">
@@ -73,9 +73,5 @@
             </div>
         </div>
     </div>
-
-    <script>
-        w3.includeHTML();
-    </script>
 </body>
 </html>
