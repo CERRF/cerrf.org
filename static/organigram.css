@@ -1,0 +1,70 @@
+
+  .org-chart {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin: 20px;
+  }
+  .node {
+    background: #4A4275; 
+    color: #fff; 
+    width: 180px; 
+    text-align: center; 
+    border-radius: 8px; 
+    padding: 10px;
+    margin: 10px auto;
+  }
+  .node img {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    display: block; 
+    margin: 0 auto 8px auto;
+  }
+  .node .name { 
+    font-weight: bold; 
+    font-size: 1rem; 
+    margin: 0 0 5px 0; 
+  }
+  .node .position {
+    font-size: 0.9rem; 
+    opacity: 0.9;
+  }
+  /* Connectors */
+  .connector {
+    width: 2px; 
+    background: #ccc; 
+    margin: 0 auto; 
+  }
+  .horizontal-connector {
+    border-top: 2px solid #ccc;
+    margin: 0 10px;
+    flex: 1;
+    position: relative;
+    top: 10px;
+  }
+  /* Layout for top node and branches */
+  .top-level { 
+    margin-bottom: 40px; 
+  }
+  .level-container {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .sub-level {
+    display: flex; 
+    justify-content: space-around; 
+    width: 100%;
+    margin-top: 20px;
+  }
+  .branch {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+  }
