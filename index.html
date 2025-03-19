@@ -24,15 +24,16 @@
       Youth-led nonprofit empowering the next generation through innovative cybersecurity education, resources, and interactive projects across the UK, Join Us and take part in advancing the future of #CyberAwareness &amp; #DigitalLiteracy
     </p>
   </div>
-  
-  <!-- Logo Display -->
-  <div class="logo-container">
-    <div class="logo-blurred">
-      <img src="static/logo.JPG" alt="CERRF.org Blurred Logo">
-    </div>
-    <div class="logo-stack">
-      <img src="static/logo.JPG" alt="CERRF.org Logo" class="logo normal">
-    </div>
+
+  <!-- Logo & Background Content Container (Separated from the Main Container) -->
+  <div class="image-container">
+    <section id="background-content">
+      <div class="logo-container">
+        <div class="logo-stack">
+          <img src="static/logo.JPG" alt="CERRF.org Logo" class="logo normal">
+        </div>
+      </div>
+    </section>
   </div>
   
   <!-- Main Content Container -->
@@ -66,7 +67,7 @@
         <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/cerrf" target="_blank">CERRF on LinkedIn</a></li>
         <li><strong>GitHub Organization:</strong> <a href="https://github.com/CERRF" target="_blank">cerrf.org GitHub</a></li>
       </ul>
-    
+      
       <!-- Card Container for other sections -->
       <div class="card-container">
         <a href="projects.html" class="card">
@@ -95,91 +96,91 @@
   </div>
   
   <!-- Organigram Container (separate from Main Container) -->
-<div class="organigram-container">
-  <div style="text-align: center;">
-    <h1>CERRF.ORG Structure</h1>
-  </div>
-  <div class="org-chart">
-    <!-- Head Node (Ansh Padam) -->
-    <div class="top-level" style="display:flex; justify-content:center;">
-      <div class="card org-card" 
-           data-name="Ansh Padam" 
-           data-role="Board Chair &amp; YAP Director" 
-           data-description="Ansh holds a pivotal leadership position as the Chair of the Board at CERRF.ORG, guiding overall strategic direction and ensuring all board activities remain aligned with the nonprofit’s mission. By co-managing internal IT systems and cybersecurity standards, he ensures strategic direction as well as operational effectiveness." 
-           data-imgsrc="chair-placeholder.jpg" 
-           style="cursor:pointer; margin: 0 10px;">
-        <img src="chair-placeholder.jpg" alt="Chair Photo">
-        <div class="card-content">
-          <h3>Ansh Padam</h3>
-          <p>Board Chair &amp; YAP Director</p>
-        </div>
-      </div>
+  <div class="organigram-container">
+    <div style="text-align: center;">
+      <h1>CERRF.ORG Structure</h1>
     </div>
-    
-    <!-- Connectors -->
-    <div class="vertical-connector" style="height:30px; width:2px; background:#ccc; margin: 0 auto;"></div>
-    <div class="horizontal-connector" style="border-top:2px solid #ccc; width:80%; margin: 0 auto;"></div>
-    
-    <!-- Child Nodes -->
-    <div class="level-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
-      <!-- Nathan Brown-Bennett -->
-      <div class="card org-card" 
-           data-name="Nathan Brown-Bennett" 
-           data-role="Board Member &amp; Program Manager" 
-           data-description="Nathan is a multifaceted leader at CERRF.ORG who bridges strategic governance with operational execution. As a board member and Program Manager, he coordinates youth cybersecurity initiatives while ensuring the organization’s vision is upheld."
-           data-imgsrc="program-manager.jpg" 
-           style="cursor:pointer; margin: 0 10px;">
-        <img src="program-manager.jpg" alt="Program Manager Photo">
-        <div class="card-content">
-          <h3>Nathan Brown-Bennett</h3>
-          <p>Board Member &amp; Program Manager</p>
+    <div class="org-chart">
+      <!-- Head Node (Ansh Padam) -->
+      <div class="top-level" style="display:flex; justify-content:center;">
+        <div class="card org-card" 
+             data-name="Ansh Padam" 
+             data-role="Board Chair &amp; YAP Director" 
+             data-description="Ansh holds a pivotal leadership position as the Chair of the Board at CERRF.ORG, guiding overall strategic direction and ensuring all board activities remain aligned with the nonprofit’s mission. By co-managing internal IT systems and cybersecurity standards, he ensures strategic direction as well as operational effectiveness." 
+             data-imgsrc="chair-placeholder.jpg" 
+             style="cursor:pointer; margin: 0 10px;">
+          <img src="chair-placeholder.jpg" alt="Chair Photo">
+          <div class="card-content">
+            <h3>Ansh Padam</h3>
+            <p>Board Chair &amp; YAP Director</p>
+          </div>
         </div>
       </div>
       
-      <!-- Mateja Kucaite -->
-      <div class="card org-card" 
-           data-name="Mateja Kucaite" 
-           data-role="Board Member &amp; Treasurer" 
-           data-description="Mateja is essential to the financial and operational backbone of CERRF.ORG. Serving as a board member and Treasurer, she manages budgets, fiscal planning, and helps maintain fiscal discipline."
-           data-imgsrc="finance-manager.jpg" 
-           style="cursor:pointer; margin: 0 10px;">
-        <img src="finance-manager.jpg" alt="Finance Manager Photo">
-        <div class="card-content">
-          <h3>Mateja Kucaite</h3>
-          <p>Board Member &amp; Treasurer</p>
-        </div>
-      </div>
+      <!-- Connectors -->
+      <div class="vertical-connector" style="height:30px; width:2px; background:#ccc; margin: 0 auto;"></div>
+      <div class="horizontal-connector" style="border-top:2px solid #ccc; width:80%; margin: 0 auto;"></div>
       
-      <!-- Sam Downham -->
-      <div class="card org-card" 
-           data-name="Sam Downham" 
-           data-role="Board Secretary &amp; HR Manager" 
-           data-description="Sam serves as both Board Secretary and HR Manager at CERRF.ORG, ensuring internal coordination, maintaining meeting records, and building a strong external presence through effective communications."
-           data-imgsrc="pr-manager.jpg" 
-           style="cursor:pointer; margin: 0 10px;">
-        <img src="pr-manager.jpg" alt="PR Manager Photo">
-        <div class="card-content">
-          <h3>Sam Downham</h3>
-          <p>Board Secretary &amp; HR Manager</p>
+      <!-- Child Nodes -->
+      <div class="level-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
+        <!-- Nathan Brown-Bennett -->
+        <div class="card org-card" 
+             data-name="Nathan Brown-Bennett" 
+             data-role="Board Member &amp; Program Manager" 
+             data-description="Nathan is a multifaceted leader at CERRF.ORG who bridges strategic governance with operational execution. As a board member and Program Manager, he coordinates youth cybersecurity initiatives while ensuring the organization’s vision is upheld."
+             data-imgsrc="program-manager.jpg" 
+             style="cursor:pointer; margin: 0 10px;">
+          <img src="program-manager.jpg" alt="Program Manager Photo">
+          <div class="card-content">
+            <h3>Nathan Brown-Bennett</h3>
+            <p>Board Member &amp; Program Manager</p>
+          </div>
         </div>
-      </div>
-      
-      <!-- Deepak GC -->
-      <div class="card org-card" 
-           data-name="Deepak GC" 
-           data-role="Vice Chair &amp; Advisory Council Member" 
-           data-description="Deepak supports the strategic leadership of CERRF.ORG as Vice Chair of the Board, offering guidance alongside the Chair and occasionally stepping in as acting Chair. He also serves as an Advisory Council Member, providing valuable insights on cybersecurity trends."
-           data-imgsrc="deepak-placeholder.jpg" 
-           style="cursor:pointer; margin: 0 10px;">
-        <img src="deepak-placeholder.jpg" alt="Deepak Photo">
-        <div class="card-content">
-          <h3>Deepak GC</h3>
-          <p>Vice Chair &amp; Advisory Council Member</p>
+        
+        <!-- Mateja Kucaite -->
+        <div class="card org-card" 
+             data-name="Mateja Kucaite" 
+             data-role="Board Member &amp; Treasurer" 
+             data-description="Mateja is essential to the financial and operational backbone of CERRF.ORG. Serving as a board member and Treasurer, she manages budgets, fiscal planning, and helps maintain fiscal discipline."
+             data-imgsrc="finance-manager.jpg" 
+             style="cursor:pointer; margin: 0 10px;">
+          <img src="finance-manager.jpg" alt="Finance Manager Photo">
+          <div class="card-content">
+            <h3>Mateja Kucaite</h3>
+            <p>Board Member &amp; Treasurer</p>
+          </div>
         </div>
-      </div>
-    </div> <!-- End level-container -->
-  </div> <!-- End organigram-container -->
-</div> <!-- End main-container -->
+        
+        <!-- Sam Downham -->
+        <div class="card org-card" 
+             data-name="Sam Downham" 
+             data-role="Board Secretary &amp; HR Manager" 
+             data-description="Sam serves as both Board Secretary and HR Manager at CERRF.ORG, ensuring internal coordination, maintaining meeting records, and building a strong external presence through effective communications."
+             data-imgsrc="pr-manager.jpg" 
+             style="cursor:pointer; margin: 0 10px;">
+          <img src="pr-manager.jpg" alt="PR Manager Photo">
+          <div class="card-content">
+            <h3>Sam Downham</h3>
+            <p>Board Secretary &amp; HR Manager</p>
+          </div>
+        </div>
+        
+        <!-- Deepak GC -->
+        <div class="card org-card" 
+             data-name="Deepak GC" 
+             data-role="Vice Chair &amp; Advisory Council Member" 
+             data-description="Deepak supports the strategic leadership of CERRF.ORG as Vice Chair of the Board, offering guidance alongside the Chair and occasionally stepping in as acting Chair. He also serves as an Advisory Council Member, providing valuable insights on cybersecurity trends."
+             data-imgsrc="deepak-placeholder.jpg" 
+             style="cursor:pointer; margin: 0 10px;">
+          <img src="deepak-placeholder.jpg" alt="Deepak Photo">
+          <div class="card-content">
+            <h3>Deepak GC</h3>
+            <p>Vice Chair &amp; Advisory Council Member</p>
+          </div>
+        </div>
+      </div> <!-- End level-container -->
+    </div> <!-- End organigram-container -->
+  </div>
   
   <!-- Modal Popup -->
   <div id="modal" class="modal">
@@ -194,7 +195,7 @@
   
   <!-- Footer -->
   <footer>
-    <div class="footer-container" style="display: flex; flex-wrap: wrap; justify-content: space-around; padding: 20px; background: #f2f2f2;">
+    <div class="footer-container" style="display: flex; flex-wrap: wrap; justify-content: space-around; padding: 20px; background: #e0e0e0;">
       <div class="footer-about" style="flex: 1; min-width: 250px; margin: 10px;">
         <h3>About CERRF.org</h3>
         <p>
@@ -215,7 +216,7 @@
         </ul>
       </div>
     </div>
-    <div class="footer-bottom" style="text-align: center; padding: 10px; background: #e0e0e0;">
+    <div class="footer-bottom" style="text-align: center; padding: 10px;">
       <p>&copy; 2025 CERRF.org | All Rights Reserved</p>
     </div>
   </footer>

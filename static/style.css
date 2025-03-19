@@ -1,19 +1,31 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('static/8365CE46-D8AC-489E-B276-8E1F6B7E6569.JPG') no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
     color: #333;
 }
-  
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: transparent;
+    max-width: 1200px;
+}
+
+/* Added a subtle border to further separate it */
 .main-container {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #fff; /* solid white */
     margin: 40px auto;
     padding: 20px;
     width: 90%;
     max-width: 1200px;
     border-radius: 8px;
+    border: 2px solid #dedede;
 }
   
 .scrolling-banner {
@@ -42,24 +54,29 @@ body {
     height: 200px;
     margin-bottom: 20px;
 }
-.logo-blurred img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
+.logo-blurred {
+    position: fixed;
+    top: 20px; /* adjust as needed to align within the container */
+    left: 50%; /* center it */
+    transform: translateX(-50%);
+    z-index: 1;  /* behind the main logo */
     filter: blur(10px);
     opacity: 0.5;
+    width: 80%;  /* adjust width as desired */
 }
+
 .logo-stack {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.logo-stack .logo.normal {
-    max-height: 200px;
-    width: auto;
-    height: auto;
+
+/* The foreground logo is given a higher z-index and now uses relative positioning */
+.logo-stack {
+    position: relative;
+    z-index: 2;
+    text-align: center;  /* center the logo if needed */
 }
 
 /* Header info */
@@ -129,13 +146,17 @@ hr {
 }
 
 /* Organigram specific styling */
+/* Organigram Container (already defined) */
+/* Added a distinct border and extra top margin */
 .organigram-container {
     padding: 20px;
-    background: #fff;
-    margin: 20px auto;
+    background: #fff; /* solid white */
+    margin: 40px auto 20px; /* extra top margin to separate from main container */
     max-width: 1200px;
     border-radius: 8px;
+    border: 2px solid #ccc;
 }
+
 .org-chart {
     display: flex;
     flex-direction: column;
@@ -190,4 +211,13 @@ hr {
     height: auto;
     display: block;
     margin: 0 auto 10px;
+}
+
+.footer-container, 
+.footer-bottom {
+    background-color: #e0e0e0; /* or choose a different solid color */
+}
+
+.footer-about, .footer-tagline, .footer-policies {
+    background-color: #e0e0e0;
 }
