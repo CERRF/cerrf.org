@@ -1,0 +1,52 @@
+-- Board Overview:
+
+Ansh Padam – Board Chair & YAP Director
+Description:
+ Ansh holds a pivotal leadership position as the Chair of the Board at CERRF.ORG, guiding overall strategic direction and ensuring all board activities stay aligned with the nonprofit’s mission. Beyond chairing the board, by co-managing internal IT systems and cybersecurity standards, he ensures both strategic direction and operational effectiveness across CERRF.ORG. Ansh ensures CERRF.ORG achieves it’s strategic roadmap 
+
+Nathan Brown-Bennett – Board Member & Program Manager
+Description:
+ Nathan is a multifaceted leader at CERRF.ORG who bridges strategic governance and operational execution. As a board trustee, he contributes high-level expertise and guidance, ensuring the organization’s vision is upheld. Simultaneously, his role as Program Manager  places him at the heart of day-to-day initiatives—coordinating youth cybersecurity workshops, events, and hackathons. Additionally, by co-managing internal IT systems and cybersecurity standards, he ensures both strategic direction and operational effectiveness across CERRF.ORG.
+
+Mateja Kucaite – Board Member & Treasurer
+Description:
+ Mateja is essential to the financial and operational backbone of CERRF.ORG. Serving as both Board Treasurer and Finance Officer, she is responsible for maintaining fiscal discipline through budgeting, financial planning, and reporting. She also oversees volunteer coordination and HR processes, ensuring a supportive environment for staff and volunteers alike. By balancing strategic financial management with day-to-day operations, Mateja helps sustain CERRF.ORG’s ongoing growth.
+
+Sam Downham – Board Secretary & HR Manager
+Description:
+ Sam plays a dual role that combines organizational governance with public outreach. As Board Secretary, Sam maintains meeting minutes, official records, and regulatory compliance. Concurrently, as HR Manager, Sam shapes the nonprofit’s internal structure, dealing directly with appointments with the board, application process and internal affairs . This blend of board-level and communications responsibilities ensures clear internal coordination and a strong external presence.
+
+Deepak – Vice Chair & Advisory Council Member
+Description:
+Deepak supports the strategic leadership of CERRF.ORG as Vice Chair of the Board, offering guidance alongside the Chair and occasionally stepping in as acting Chair. Simultaneously, he serves as an Advisory Council Member, leveraging his industry expertise, lecturer status and diverse network  to provide strategic insights on cybersecurity trends and to help shape the organization’s long-term direction.
+
+-- Staff Overview:
+
+Freddie Jadama – Staff (Mentorship Coordinator)
+Description:
+Freddie leads CERRF.ORG’s mentorship initiatives. As Mentorship Coordinator, Freddie cultivates relationships with industry professionals, pairs them with aspiring youth participants, and tracks their progression over time. By building a robust mentor network, Freddie ensures young learners receive the personalized guidance and real-world insights essential for thriving in the cybersecurity field.
+
+Berzan Karakas – Staff (Mentorship Coordinator)
+Description:
+Berzan leads CERRF.ORG’s mentorship initiatives. As Mentorship Coordinator, Berzan cultivates relationships with industry professionals, pairs them with aspiring youth participants, and tracks their progression over time. By building a robust mentor network, Berzan ensures young learners receive the personalized guidance and real-world insights essential for thriving in the cybersecurity field.
+
+Max J Wood– Staff (Communications & Marketing Manager)
+Description:
+ Max drives online engagement at CERRF.ORG by developing and executing social media strategies that resonate with young audiences. As the Social Media Manager, Max monitors digital trends, crafts content that highlights CERRF.ORG’s mission, and fosters community interaction. This role anchors the organization’s broader communications and marketing efforts, ensuring its message reaches diverse communities effectively.
+
+Oliver Higgins – Staff (Administrative Support & Outreach Assistant)
+Description:
+ Oliver’s Administrative Support role involves scheduling, office coordination, and general administrative tasks to keep everything running smoothly.  He also serves as Outreach Assistant, supporting event organization, communications, and scheduling for outreach initiatives. Additionally, Oliver contributes to the Youth Advisory Panel, bringing the youth perspective to program planning and execution.
+
+Wadoud – Staff (Curriculum Developer)
+Description:
+ As Curriculum Developer, Wadoud ensures that CERRF.ORG’s educational content remains cutting-edge and impactful. By designing practical labs, training modules, and interactive content, he equips young participants with the knowledge and skills needed for real-world cybersecurity activities. His leadership in curriculum innovation, working alongside partners and sponsors,  is key to fulfilling the organization’s goal of empowering the next generation of cyber professionals.
+
+Cicely  Higgins – Staff (Legal Advisor)
+Description:
+Cicely serves as the Legal Advisor at CERRF.ORG, ensuring that all organizational files, project plans, and public-facing materials comply with UK legislation and regulations. She reviews and maintains documentation to uphold best practices around data protection, intellectual property, and compliance requirements across the nonprofit’s initiatives. Additionally, she leads outreach efforts to external legal experts and regulatory bodies for collaborative guidance on complex issues. By continuously monitoring evolving legal standards and facilitating expert reviews, Cicely helps safeguard CERRF.ORG’s mission and reputation, enabling the organization to operate confidently within a legally sound framework.
+
+Matthew – Staff (Marketing & Funding)
+Description:
+Matthew leads fundraising engagement at CERRF.ORG. Charged with marketing and funding initiatives, Matthew coordinates grant applications and sponsorship outreach to secure vital resources. His role supports long-term sustainability for all programs, enabling CERRF.ORG to continuously expand its cybersecurity education initiatives for young people.
+

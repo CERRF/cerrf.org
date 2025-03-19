@@ -36,15 +36,12 @@ body {
 }
 
 /* Logo display modifications */
-/* Set the container height equal to the desired logo height (here 200px) */
 .logo-container {
     position: relative;
     width: 100%;
     height: 200px;
     margin-bottom: 20px;
 }
-
-/* Blurred logo fills page width and uses the container’s height */
 .logo-blurred img {
     width: 100%;
     height: 100%;
@@ -53,8 +50,6 @@ body {
     filter: blur(10px);
     opacity: 0.5;
 }
-
-/* The normal logo is centered and maintains its natural dimensions */
 .logo-stack {
     position: absolute;
     top: 50%;
@@ -67,7 +62,7 @@ body {
     height: auto;
 }
 
-/* Header information styling */
+/* Header info */
 .site-header,
 #about-cerrf {
     margin-bottom: 30px;
@@ -85,7 +80,8 @@ body {
 #about-cerrf h3 {
     margin-bottom: 5px;
 }
-#about-cerrf p, #about-cerrf ul {
+#about-cerrf p, 
+#about-cerrf ul {
     margin: 5px 0 15px 20px;
 }
 #about-cerrf ul {
@@ -130,4 +126,68 @@ hr {
 }
 .card-content p {
     margin: 0;
+}
+
+/* Organigram specific styling */
+.organigram-container {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+}
+.org-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.top-level, .level-container {
+    width: 100%;
+}
+.branch, .sub-level {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Modal styles */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+.modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.modal-close:hover,
+.modal-close:focus {
+    color: black;
+    text-decoration: none;
+}
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
 }
