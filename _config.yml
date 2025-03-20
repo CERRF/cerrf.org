@@ -3,7 +3,7 @@
 # Site settings
 name: "CERRF - Cyber Education, Research & Resilience Foundation"
 description: "Empowering the next generation through cybersecurity education, research, and resilience-building initiatives."
-url: "https://cerrf.org"
+url: "https://cerrf.github.io/cerrf.org/"
 baseurl: ""
 
 # Theme settings
