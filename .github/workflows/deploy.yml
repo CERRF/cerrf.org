@@ -1,0 +1,36 @@
+name: Deploy from Private Repository
+
+on:
+  push:
+    branches:
+      - main  # Trigger deployment on push to the main branch.
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Check out the public repository
+    - name: Check Out Public Repository
+      uses: actions/checkout@v3
+
+    # Step 2: Fetch files from the private repository
+    - name: Clone Private Repository
+      run: |
+        git clone https://<YOUR_USERNAME>:<YOUR_PERSONAL_ACCESS_TOKEN>@github.com/CERRF/private-cerrf.org.git private-cerrf
+      env:
+        YOUR_USERNAME: ${{ secrets.GH_USERNAME }}
+        YOUR_PERSONAL_ACCESS_TOKEN: ${{ secrets.PRIVATE_PAT }}
+
+    # Step 3: Copy files to the public repository
+    - name: Copy Files
+      run: |
+        rsync -a --delete private-cerrf/ .
+
+    # Step 4: Deploy to GitHub Pages
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./  # Files to publish
+
